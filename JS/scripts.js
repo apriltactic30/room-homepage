@@ -13,3 +13,13 @@ function showSlides(n) {
   for (i=0; i<slides.length; i++) {slides[i].style.display = "none";}
   slides[slideIndex].style.display = "flex"; 
 }
+
+function myNav() {
+  var x = document.getElementsByClassName("hiddenNav");
+  if (x.style.display === "inline-block") {
+    x.style.display = "none";
+  } 
+  else {
+    x.style.display = "inline-block";
+  }
+} 

@@ -15,35 +15,45 @@
              
         <div class="slideContainer">
             <nav>
+                <img id="icon" src="/images/icon-hamburger.svg" onclick="myNav()">
                 <a id="room">room</a>
-                <a id="home" href="/index/">home</a>
-                <a id="shop" href="/shop/">shop</a>
-                <a id="about" href="/about/">about</a>
-                <a id="contact" href="/contact/">contact</a>
+                <div class="hiddenNav">
+                    <a id="home" href="/index/">home</a>
+                    <a id="shop" href="/shop/">shop</a>
+                    <a id="about" href="/about/">about</a>
+                    <a id="contact" href="/contact/">contact</a>
+                </div>
             </nav>
             <div class="mySlide" style="display: flex;">
-                <img id="sp" src="images/desktop-image-hero-1.jpg" width="68.5%"  height="96%">
+                <img id="sp" src="images/desktop-image-hero-1.jpg" width="80%"  height="96%"
+                srcset="images/desktop-image-hero-1.jpg 2000w, images/mobile-image-hero-1.jpg 1000w"  sizes="(min-width: 340px) 960px,500vw">
                 <aside>
                     <h  id="header1">Discover innovative ways to decorate</h>
                     <p id="para1">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+                    <a id="shopnow" href="/shop/">SHOP NOW</a>
+                    <img src="images/icon-arrow.svg" id="arrow">
                 </aside> 
             </div>
             <div class="mySlide">
-                <img id="sp" src="images/desktop-image-hero-2.jpg" width="68.5%"  height="96%">
+                <img id="sp" src="images/desktop-image-hero-2.jpg" width="80%"  height="96%"
+                srcset="images/desktop-image-hero-2.jpg 2000w, images/mobile-image-hero-2.jpg 1000w"  sizes="(min-width: 960px) 960px,100vw">
                 <aside>
                     <h  id="header1">We are available all across the globe</h>
                     <p id="para1">With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.</p>
+                    <a id="shopnow" href="/shop/">SHOP NOW</a>
+                    <img src="images/icon-arrow.svg" id="arrow">
                 </aside>
             </div>
             <div class="mySlide">
-                <img id="sp" src="images/desktop-image-hero-3.jpg" width="68.5%"  height="96%">
+                <img id="sp" src="images/desktop-image-hero-3.jpg" width="80%"  height="96%"
+                srcset="images/desktop-image-hero-3.jpg 2000w, images/mobile-image-hero-3.jpg 1000w"  sizes="(min-width: 960px) 960px,100vw">
                 <aside>
                     <h  id="header1">Manufactured with the best materials</h>
                     <p id="para1">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.</p>
+                    <a id="shopnow" href="/shop/">SHOP NOW</a>
+                    <img src="images/icon-arrow.svg" id="arrow">
                 </aside>
             </div>   
-            <a id="shopnow" href="/shop/">SHOP NOW</a>
-            <img src="images/icon-arrow.svg" id="arrow"><br>
             <img src="images/icon-angle-left.svg" id="arrow-left" onclick="plusSlides(-1)">
             <img src="images/icon-angle-right.svg" id="arrow-right" onclick="plusSlides(1)">
         </div>
